@@ -1,0 +1,18 @@
+2019-03-20T05:30:23+00:00 CRITICAL Uncaught InvalidArgumentException: Missing the required parameter $product_id when calling getProduct in /home/plus-agc/www/green-hands/wp-content/plugins/colormeshop/src/Swagger/Api/ProductApi.php:546
+Stack trace:
+#0 /home/plus-agc/www/green-hands/wp-content/plugins/colormeshop/src/Swagger/Api/ProductApi.php(401): ColorMeShop\Swagger\Api\ProductApi->getProductRequest(NULL)
+#1 /home/plus-agc/www/green-hands/wp-content/plugins/colormeshop/src/Swagger/Api/ProductApi.php(383): ColorMeShop\Swagger\Api\ProductApi->getProductWithHttpInfo(NULL)
+#2 /home/plus-agc/www/green-hands/wp-content/plugins/colormeshop/src/api/class-product-api.php(54): ColorMeShop\Swagger\Api\ProductApi->getProduct(NULL)
+#3 /home/plus-agc/www/green-hands/wp-content/plugins/colormeshop/src/shortcodes/product/class-image.php(32): ColorMeShop\Api\Product_Api->fetch(NULL)
+#4 [internal function]: ColorMeShop\Shortcodes\Product\Image::show(Object(Pimple\Container), Array, '', 'colormeshop_ima...')
+#5 /home/plus-agc/www/green-hands/wp-content/plugin: /home/plus-agc/www/green-hands/wp-content/plugins/colormeshop/src/Swagger/Api/ProductApi.php の行546
+
+2019-03-20T05:46:38+00:00 CRITICAL Uncaught InvalidArgumentException: Missing the required parameter $product_id when calling getProduct in /home/plus-agc/www/green-hands/wp-content/plugins/colormeshop/src/Swagger/Api/ProductApi.php:546
+Stack trace:
+#0 /home/plus-agc/www/green-hands/wp-content/plugins/colormeshop/src/Swagger/Api/ProductApi.php(401): ColorMeShop\Swagger\Api\ProductApi->getProductRequest(NULL)
+#1 /home/plus-agc/www/green-hands/wp-content/plugins/colormeshop/src/Swagger/Api/ProductApi.php(383): ColorMeShop\Swagger\Api\ProductApi->getProductWithHttpInfo(NULL)
+#2 /home/plus-agc/www/green-hands/wp-content/plugins/colormeshop/src/api/class-product-api.php(54): ColorMeShop\Swagger\Api\ProductApi->getProduct(NULL)
+#3 /home/plus-agc/www/green-hands/wp-content/plugins/colormeshop/src/shortcodes/product/class-image.php(32): ColorMeShop\Api\Product_Api->fetch(NULL)
+#4 [internal function]: ColorMeShop\Shortcodes\Product\Image::show(Object(Pimple\Container), Array, '', 'colormeshop_ima...')
+#5 /home/plus-agc/www/green-hands/wp-content/plugin: /home/plus-agc/www/green-hands/wp-content/plugins/colormeshop/src/Swagger/Api/ProductApi.php の行546
+
